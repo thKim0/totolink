@@ -12,7 +12,7 @@
 
 ## Analyse
 
-TOTOLINK X5000R (V9.1.0u.6369_B20230113)was found to contain a command insertion vulnerability in sub_42352c. This vulnerability allows an attacker to execute arbitrary commands through the "host_time" parameter.
+TOTOLINK X5000R (V9.1.0u.6369_B20230113)was found to contain a command injection vulnerability in sub_42352c. This vulnerability allows an attacker to execute arbitrary commands through the "host_time" parameter.
 
 ![](./img/2.png)
 
