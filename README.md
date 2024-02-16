@@ -23,10 +23,11 @@ For example, redirections (>, <) can corrupt critical files inside the filesyste
 ![](./img/3.png)
 
 
+The vulnerability can be triggered via the "NTPSyncWithHost" function for setting the time of the firmware. An example payload is as follows
+`{"host_time":"2024' > test'","topicurl":"NTPSyncWithHost"}`
 
-
-
-
-
+These functions and many more are registered and used as callbacks in the main function of the cstecgi.cgi binary. Below is a snippet of code from the main function and a table of functions that are registered as callbacks.
+![](./img/4.png)
+![](./img/5.png)
 
 
